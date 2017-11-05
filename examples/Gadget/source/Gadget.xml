@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+  <name>SmartBluetoothMarketing</name>
+  <version>1.0.0.0</version>
+  <author name="SmartBluetoothMarketing.com">
+    <logo src="images/sbm1.png" />
+    <info url="http://smartbluetoothmarketing.com" />
+  </author>
+  <copyright>&#169; 2010 SmartBluetoothMarketing.com</copyright>
+  <description>Smart Bluetooth Marketing gadget sample</description>
+  <icons>
+    <icon width="32" height="32" src="images/sbm1.png" />
+  </icons>
+  <hosts>
+    <host name="sidebar">
+      <base type="HTML" apiVersion="1.0.0" src="gadget.html" />
+      <permissions>Full</permissions>
+      <platform minPlatformVersion="1.0" />
+      <defaultImage src="images/sbm1.png" />
+    </host>
+  </hosts>
+</gadget>

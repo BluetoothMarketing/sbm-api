@@ -1,0 +1,48 @@
+﻿
+body {
+    width: 230px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI, Arial, Verdana;
+	font-size:  11px;    
+	border: none;
+}
+
+#title {
+	position: absolute; 
+	top: 0px; 
+    margin: 0;
+    padding: 0;
+	width: 100%; 
+	height: 40px; 
+	z-index: 1;
+	font-size: 14px;
+	font-family: Segoe UI, Arial, Verdana;
+	overflow: hidden;
+	text-align: center;
+}
+
+#content {
+	position: absolute; 
+	left: 20px; 
+	top: 40px; 
+	width: 100%; 
+	height: 100px; 
+	z-index: 1;
+	font-size: 10px;
+	font-family: Calibri;
+	overflow: hidden;
+}
+
+#error 
+{
+	position: absolute;
+	visibility: hidden;
+	z-index: 10;
+	width: 100%;
+	top: 45px;
+	left: 5px; 
+	height: 80px;
+	color: red; 
+}
